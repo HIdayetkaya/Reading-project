@@ -10,7 +10,7 @@ const Login = () => {
             </div>
             <div className="inputs">
                 <div className="input">
-                    <input type="email" placeholder="Email" />
+                    <input type="username" placeholder="Username" />
                 </div>
                 <div className="input">
                     <input type="password" placeholder="Password"/>
@@ -18,7 +18,6 @@ const Login = () => {
             </div>
             <div className="submit-container">
                 <div className="submit">Log In</div>
-                <div className="submit">Sign Up</div>
             </div>
         </div>
     )
