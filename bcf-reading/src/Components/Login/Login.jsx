@@ -1,11 +1,12 @@
 import React from "react";
 import './Login.css'
+import logolb from '../Assets/logolb.png';
 
 const Login = () => {
     return(
         <div className="container">
             <div className="header">
-                <div className="text">Log In</div>
+                <div className="text">Brighter Reading</div>
                 <div className="underline"></div>
             </div>
             <div className="inputs">
@@ -17,8 +18,12 @@ const Login = () => {
                 </div>
             </div>
             <div className="submit-container">
-                <div className="submit">Log In</div>
+                <button className="submit">Log In</button>
             </div>
+            <div className="image-container">
+                <img className="image" src={logolb}></img>
+            </div>
+            
         </div>
     )
 }
